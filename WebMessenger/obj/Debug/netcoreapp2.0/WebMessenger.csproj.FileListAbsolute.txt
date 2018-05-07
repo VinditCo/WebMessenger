@@ -1,0 +1,10 @@
+/Users/robinlacey/Documents/Work/WebMessenger/WebMessenger/bin/Debug/netcoreapp2.0/WebMessenger.deps.json
+/Users/robinlacey/Documents/Work/WebMessenger/WebMessenger/bin/Debug/netcoreapp2.0/WebMessenger.runtimeconfig.json
+/Users/robinlacey/Documents/Work/WebMessenger/WebMessenger/bin/Debug/netcoreapp2.0/WebMessenger.runtimeconfig.dev.json
+/Users/robinlacey/Documents/Work/WebMessenger/WebMessenger/bin/Debug/netcoreapp2.0/WebMessenger.dll
+/Users/robinlacey/Documents/Work/WebMessenger/WebMessenger/bin/Debug/netcoreapp2.0/WebMessenger.pdb
+/Users/robinlacey/Documents/Work/WebMessenger/WebMessenger/obj/Debug/netcoreapp2.0/WebMessenger.csproj.CoreCompileInputs.cache
+/Users/robinlacey/Documents/Work/WebMessenger/WebMessenger/obj/Debug/netcoreapp2.0/WebMessenger.AssemblyInfoInputs.cache
+/Users/robinlacey/Documents/Work/WebMessenger/WebMessenger/obj/Debug/netcoreapp2.0/WebMessenger.AssemblyInfo.cs
+/Users/robinlacey/Documents/Work/WebMessenger/WebMessenger/obj/Debug/netcoreapp2.0/WebMessenger.dll
+/Users/robinlacey/Documents/Work/WebMessenger/WebMessenger/obj/Debug/netcoreapp2.0/WebMessenger.pdb

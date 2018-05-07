@@ -1,0 +1,440 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="46e2cce0-a0cc-4441-b5e3-6367f27d52e0" name="Default" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="WebMessenger" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="setup.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/WebMessenger/wwwroot/js/setup.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="14" column="8" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MessengerHub.cs" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/WebMessenger/Hubs/MessengerHub.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <marker date="1525713912000" expanded="true" signature="6:123" ph="..." />
+                <marker date="1525713912000" expanded="true" signature="153:824" ph="{...}" />
+                <marker date="1525713912000" expanded="true" signature="191:822" ph="{...}" />
+                <marker date="1525713912000" expanded="true" signature="288:333" ph="{...}" />
+                <marker date="1525713912000" expanded="true" signature="393:621" ph="{...}" />
+                <marker date="1525713912000" expanded="true" signature="458:534" ph="{...}" />
+                <marker date="1525713912000" expanded="true" signature="677:816" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MessageModel.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/WebMessenger/Models/MessageModel.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <marker date="1525713027000" expanded="true" signature="30:154" ph="{...}" />
+                <marker date="1525713027000" expanded="true" signature="62:152" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_ViewImports.cshtml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/WebMessenger/Views/_ViewImports.cshtml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <marker date="1525713027000" expanded="false" signature="7:46" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_Layout.cshtml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/WebMessenger/Views/Shared/_Layout.cshtml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="5" column="31" selection-start-line="5" selection-start-column="31" selection-end-line="5" selection-end-column="31" />
+              <folding>
+                <marker date="1525712986000" expanded="true" signature="16:1318" ph="&lt;html.../&gt;" />
+                <marker date="1525712986000" expanded="true" signature="23:375" ph="&lt;head.../&gt;" />
+                <marker date="1525712986000" expanded="true" signature="193:362" ph="&lt;environment.../&gt;" />
+                <marker date="1525712986000" expanded="true" signature="376:1310" ph="&lt;body.../&gt;" />
+                <marker date="1525712986000" expanded="true" signature="387:425" ph="&lt;div.../&gt;" />
+                <marker date="1525712986000" expanded="true" signature="426:1266" ph="&lt;environment.../&gt;" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Index.cshtml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/WebMessenger/Views/Messenger/Index.cshtml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="19" column="80" selection-start-line="19" selection-start-column="14" selection-end-line="19" selection-end-column="80" />
+              <folding>
+                <marker date="1525713002000" expanded="true" signature="27:671" ph="&lt;div.../&gt;" />
+                <marker date="1525713002000" expanded="true" signature="52:370" ph="&lt;div.../&gt;" />
+                <marker date="1525713002000" expanded="true" signature="79:359" ph="&lt;form.../&gt;" />
+                <marker date="1525713002000" expanded="true" signature="227:331" ph="&lt;div.../&gt;" />
+                <marker date="1525713002000" expanded="true" signature="385:607" ph="&lt;div.../&gt;" />
+                <marker date="1525713002000" expanded="true" signature="413:594" ph="@..." />
+                <marker date="1525713002000" expanded="true" signature="440:594" ph="{...}" />
+                <marker date="1525713002000" expanded="true" signature="454:584" ph="&lt;div.../&gt;" />
+                <marker date="1525713002000" expanded="true" signature="617:664" ph="&lt;div.../&gt;" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>chat</find>
+      <find>console</find>
+    </findStrings>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/WebMessenger/Views/_ViewStart.cshtml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/WebMessenger/Views/Messenger/Index.cshtml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/WebMessenger/Hubs/MessengerHub.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/WebMessenger/Interfaces/IMessages.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/WebMessenger/Startup.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/WebMessenger/Views/Shared/_Layout.cshtml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/WebMessenger/Models/MessageModel.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/WebMessenger/Program.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/WebMessenger/Views/_ViewImports.cshtml" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/WebMessenger/Startup.cs" />
+        <option value="$PROJECT_DIR$/WebMessenger/wwwroot/js/site.js" />
+        <option value="$PROJECT_DIR$/WebMessenger/Views/Shared/_Layout.cshtml" />
+        <option value="$PROJECT_DIR$/WebMessenger/Views/Messenger/Index.cshtml" />
+        <option value="$PROJECT_DIR$/WebMessenger/wwwroot/js/setup.js" />
+        <option value="$PROJECT_DIR$/WebMessenger/Hubs/MessengerHub.cs" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodeModulesDirectoryManager">
+    <handled-path value="$PROJECT_DIR$/WebMessenger/wwwroot/js/node_modules" />
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="271" />
+    <option name="y" value="23" />
+    <option name="width" value="2742" />
+    <option name="height" value="1328" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="SolutionExplorer" proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scratches" />
+      <pane id="SolutionExplorer">
+        <subPane>
+          <expand>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="WebMessenger (1 project)" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="WebMessenger (1 project)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="WebMessenger" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="WebMessenger (1 project)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="WebMessenger" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Hubs" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="WebMessenger (1 project)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="WebMessenger" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Models" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="WebMessenger (1 project)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="WebMessenger" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Views" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="WebMessenger (1 project)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="WebMessenger" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Views" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Messenger" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="WebMessenger (1 project)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="WebMessenger" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Views" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Shared" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+        <option name="show-file-system" value="false" />
+        <option name="show-all-items" value="false" />
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Rider.ProjectViewActivator.IsNotFirstRun" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Default" type="DotNetProject" factoryName=".NET Project">
+      <option name="EXE_PATH" value="$PROJECT_DIR$/WebMessenger/bin/Debug/netcoreapp2.0/WebMessenger.dll" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/WebMessenger" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <envs>
+        <env name="ASPNETCORE_ENVIRONMENT" value="Development" />
+        <env name="ASPNETCORE_URLS" value="http://localhost:5000" />
+      </envs>
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/WebMessenger/WebMessenger.csproj" />
+      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
+      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
+      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="DotNetCore" />
+      <option name="PROJECT_TFM" value=".NETCoreApp,Version=v2.0" />
+      <browser url="http://localhost:5000" />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="46e2cce0-a0cc-4441-b5e3-6367f27d52e0" name="Default" comment="" />
+      <created>1525712613546</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1525712613546</updated>
+      <workItem from="1525712615060" duration="1275000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="1275000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="242" y="150" width="2742" height="1328" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info anchor="bottom" id="TODO" />
+      <window_info anchor="right" id="Errors In Solution" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Unit Tests" />
+      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
+      <window_info anchor="bottom" id="REST Client" />
+      <window_info anchor="bottom" id="Run" visible="true" weight="0.3298722" />
+      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" weight="0.3298722" />
+      <window_info anchor="bottom" id="NuGet" weight="0.3298722" />
+      <window_info active="true" content_ui="combo" id="Project" sideWeight="0.49940404" visible="true" />
+      <window_info anchor="bottom" id="Docker" />
+      <window_info anchor="bottom" id="Build" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="bottom" id="Find" />
+      <window_info id="Structure" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" />
+      <window_info id="Favorites" sideWeight="0.5005959" side_tool="true" visible="true" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="UnityProjectConfiguration" isUnityUI="false" />
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/WebMessenger/Program.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <marker date="1525713025000" expanded="false" signature="6:255" ph="..." />
+            <marker date="1525713025000" expanded="true" signature="280:546" ph="{...}" />
+            <marker date="1525713025000" expanded="true" signature="307:544" ph="{...}" />
+            <marker date="1525713025000" expanded="true" signature="357:407" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebMessenger/Startup.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="585">
+          <caret line="39" column="36" selection-start-line="39" selection-start-column="36" selection-end-line="39" selection-end-column="36" />
+          <folding>
+            <marker date="1525713027000" expanded="true" signature="6:217" ph="..." />
+            <marker date="1525713027000" expanded="true" signature="242:1605" ph="{...}" />
+            <marker date="1525713027000" expanded="true" signature="269:1603" ph="{...}" />
+            <marker date="1525713027000" expanded="true" signature="366:421" ph="{...}" />
+            <marker date="1525713027000" expanded="true" signature="646:858" ph="{...}" />
+            <marker date="1525713027000" expanded="true" signature="1048:1597" ph="{...}" />
+            <marker date="1525713027000" expanded="true" signature="1087:1151" ph="{...}" />
+            <marker date="1525713027000" expanded="true" signature="1151:1241" ph="{...}" />
+            <marker date="1525713027000" expanded="true" signature="1326:1415" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebMessenger/wwwroot/js/site.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="84" selection-start-line="1" selection-start-column="84" selection-end-line="1" selection-end-column="84" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebMessenger/Views/_ViewStart.cshtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <marker date="1525530535000" expanded="true" signature="0:28" ph="@..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebMessenger/Interfaces/IMessages.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <marker date="1525713027000" expanded="true" signature="6:60" ph="..." />
+            <marker date="1525713027000" expanded="true" signature="96:269" ph="{...}" />
+            <marker date="1525713027000" expanded="true" signature="129:267" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebMessenger/bundleconfig.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebMessenger/appsettings.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebMessenger/wwwroot/js/setup.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="8" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebMessenger/Models/MessageModel.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <marker date="1525713027000" expanded="true" signature="30:154" ph="{...}" />
+            <marker date="1525713027000" expanded="true" signature="62:152" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebMessenger/Views/_ViewImports.cshtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <marker date="1525713027000" expanded="false" signature="7:46" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebMessenger/Views/Shared/_Layout.cshtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="31" selection-start-line="5" selection-start-column="31" selection-end-line="5" selection-end-column="31" />
+          <folding>
+            <marker date="1525712986000" expanded="true" signature="16:1318" ph="&lt;html.../&gt;" />
+            <marker date="1525712986000" expanded="true" signature="23:375" ph="&lt;head.../&gt;" />
+            <marker date="1525712986000" expanded="true" signature="193:362" ph="&lt;environment.../&gt;" />
+            <marker date="1525712986000" expanded="true" signature="376:1310" ph="&lt;body.../&gt;" />
+            <marker date="1525712986000" expanded="true" signature="387:425" ph="&lt;div.../&gt;" />
+            <marker date="1525712986000" expanded="true" signature="426:1266" ph="&lt;environment.../&gt;" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebMessenger/Views/Messenger/Index.cshtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="80" selection-start-line="19" selection-start-column="14" selection-end-line="19" selection-end-column="80" />
+          <folding>
+            <marker date="1525713002000" expanded="true" signature="27:671" ph="&lt;div.../&gt;" />
+            <marker date="1525713002000" expanded="true" signature="52:370" ph="&lt;div.../&gt;" />
+            <marker date="1525713002000" expanded="true" signature="79:359" ph="&lt;form.../&gt;" />
+            <marker date="1525713002000" expanded="true" signature="227:331" ph="&lt;div.../&gt;" />
+            <marker date="1525713002000" expanded="true" signature="385:607" ph="&lt;div.../&gt;" />
+            <marker date="1525713002000" expanded="true" signature="413:594" ph="@..." />
+            <marker date="1525713002000" expanded="true" signature="440:594" ph="{...}" />
+            <marker date="1525713002000" expanded="true" signature="454:584" ph="&lt;div.../&gt;" />
+            <marker date="1525713002000" expanded="true" signature="617:664" ph="&lt;div.../&gt;" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebMessenger/Hubs/MessengerHub.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <marker date="1525713912000" expanded="true" signature="6:123" ph="..." />
+            <marker date="1525713912000" expanded="true" signature="153:824" ph="{...}" />
+            <marker date="1525713912000" expanded="true" signature="191:822" ph="{...}" />
+            <marker date="1525713912000" expanded="true" signature="288:333" ph="{...}" />
+            <marker date="1525713912000" expanded="true" signature="393:621" ph="{...}" />
+            <marker date="1525713912000" expanded="true" signature="458:534" ph="{...}" />
+            <marker date="1525713912000" expanded="true" signature="677:816" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

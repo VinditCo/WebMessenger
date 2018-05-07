@@ -1,0 +1,29 @@
+﻿@model List<MessageModel>
+
+<div id="chat">
+    
+    <div id = "input">
+        <form id="frm-send-message" action="#">
+            <label for="message">Message:</label>
+            <input type="text" id="message"/>
+            <div id = "sendButton">
+                <input type="submit" id="send" value="Send"/>
+            </div>
+           
+        </form>
+    </div>
+    
+    
+    <div id="messages">
+        @foreach (var m in @Model) {
+            <div id = @m.ID>@m.Content 
+                @* <button id="myBtn" name="frm-delete-Message" >Delete</button> *@
+            </div>
+        }  
+    </div>
+    
+    <div id="pageNotification">
+        
+    </div>
+</div>
+
