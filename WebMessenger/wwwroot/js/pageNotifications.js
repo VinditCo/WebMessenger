@@ -15,11 +15,28 @@ function pageNotification($, notificationMessage, notificationID, fadeInNotifica
 
     element.empty();
     element.append(notificationMessage);
-    fadeInNotification(element);
 
-    fadeOutNotification(element);
+    fadeIn();
+
+    fadeOut();
 
     return element;
+
+    function fadeIn() {
+        fadeInNotification(element);
+    }
+
+
+    function fadeOut() {
+        if (element.promise != null) {
+            element.promise().done(function () {
+                fadeOutNotification(element);
+            });
+        }
+        else {
+            fadeOutNotification(element);
+        }
+    }
 
     function noNotificationMessage() {
         return notificationMessage.trim().length === 0;
@@ -31,7 +48,7 @@ function pageNotification($, notificationMessage, notificationID, fadeInNotifica
 }
 
 function pageNotificationForceHide($, notificationID) {
-    if ($ == null || notificationID.trim().length === 0) {
+    if ($ == null || notificationID == null|| notificationID.trim().length === 0) {
         return;
     }
     const element = $(notificationID);

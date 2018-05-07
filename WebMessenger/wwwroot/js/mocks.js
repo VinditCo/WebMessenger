@@ -1,6 +1,3 @@
-function pageNotification($, notificationMessage, notificationID, fadeInNotification, fadeOutNotification) {
-}
-
 function fadeInPageNotificationDummy(element) {
 }
 
@@ -26,11 +23,10 @@ function hidePageNotificationFake($) {
 }
 
 if (typeof exports !== 'undefined') {
-    exports.pageNotification = pageNotification;
     exports.fadeInPageNotificationDummy = fadeInPageNotificationDummy;
     exports.fadeOutPageNotificationDummy = fadeOutPageNotificationDummy;
-    exports.fadeInPageNotificationFake = fadeInPageNotificationFake;
-    exports.fadeOutPageNotificationFake = fadeOutPageNotificationFake;
+    exports.fadeInPageNotification = fadeInPageNotificationFake;
+    exports.fadeOutPageNotification = fadeOutPageNotificationFake;
     exports.pageNotificationFake = pageNotificationFake;
     exports.hidePageNotificationFake = hidePageNotificationFake;
 }

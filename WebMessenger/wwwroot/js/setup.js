@@ -10,6 +10,11 @@ connection.on('ShouldRemoveMessage', (guid) => {
    removeMessage($,containDiv,'#'+guid)
 });
 
+function addMessageAndAssignDelete($,containDiv, messageData) {
+    addMessage($, containDiv, messageData); 
+    addDeleteToOnClick(messageData, messageData.id);
+}
+
 connection.on('ReceiveMessage', (message, guid) => {
     var date = new Date();
     const containDiv = '#messages';
@@ -19,22 +24,52 @@ connection.on('ReceiveMessage', (message, guid) => {
         timeStamp :date.toISOString()
     };
 
-    addMessage($,containDiv,messageData)
+    addMessageAndAssignDelete($,containDiv, messageData);
+});
 
-    $('#'+messageData.id).on( "click", function() {
-        connection.invoke('RemoveMessage', guid);
+$('#message').on('input',function( event ) {
+    validateInput($,$('#message'),inputNotification,hideInputNotification)
+});
+
+addSendToOnClick();
+
+function addSendToOnClick() {
+    document.getElementById('frm-send-message').addEventListener('submit', event => {
+        let message = document.getElementById('message').value;
+        document.getElementById('message').value = '';
+        var guid = NewGuid() + "-" + connection.id;
+        connection.invoke('Send', message, guid);
+        pageNotification($, "Message Sent", "#pageNotification", fadeInPageNotification, fadeOutPageNotification)
         event.preventDefault();
     });
-});
+}
 
-document.getElementById('frm-send-message').addEventListener('submit', event => {
-    let message = document.getElementById('message').value;
-    document.getElementById('message').value = '';
-    var guid =  NewGuid() + "-"+connection.id;
-    connection.invoke('Send', message,guid);
-    event.preventDefault();
-});
+function addDeleteToOnClick(messageData, guid) {
+    $('#' + messageData.id).on("click", function () {
+        connection.invoke('RemoveMessage', guid);
+        event.preventDefault();
+        pageNotification($, "Message Deleted", "#pageNotification", fadeInPageNotification, fadeOutPageNotification)
+    });
+}
+
+function fadeInPageNotification(element) {
+    element.fadeIn(1000);
+}
+
+function fadeOutPageNotification(element) {
+    element.fadeOut(1000);
+}
+
+
+function inputNotification($, message) {
+    return pageNotification($, message, '#inputNotification', fadeInPageNotification, function () {})
+}
+
+function hideInputNotification($) {
+    return pageNotificationForceHide($, '#inputNotification')
+}
 
 $(document).ready(function() {
     $("abbr.timeago").timeago();
+    validateInput($,$('#message'),inputNotification,hideInputNotification)
 });

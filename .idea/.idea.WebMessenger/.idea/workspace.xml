@@ -1,7 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="46e2cce0-a0cc-4441-b5e3-6367f27d52e0" name="Default" comment="" />
+    <list default="true" id="46e2cce0-a0cc-4441-b5e3-6367f27d52e0" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.WebMessenger/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.WebMessenger/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebMessenger/Models/MessageModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WebMessenger/Models/MessageModel.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebMessenger/Views/Messenger/Index.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/WebMessenger/Views/Messenger/Index.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebMessenger/Views/Shared/_Layout.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/WebMessenger/Views/Shared/_Layout.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebMessenger/bin/Debug/netcoreapp2.0/WebMessenger.dll" beforeDir="false" afterPath="$PROJECT_DIR$/WebMessenger/bin/Debug/netcoreapp2.0/WebMessenger.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebMessenger/bin/Debug/netcoreapp2.0/WebMessenger.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/WebMessenger/bin/Debug/netcoreapp2.0/WebMessenger.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebMessenger/obj/Debug/netcoreapp2.0/WebMessenger.dll" beforeDir="false" afterPath="$PROJECT_DIR$/WebMessenger/obj/Debug/netcoreapp2.0/WebMessenger.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebMessenger/obj/Debug/netcoreapp2.0/WebMessenger.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/WebMessenger/obj/Debug/netcoreapp2.0/WebMessenger.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebMessenger/wwwroot/js/mocks.js" beforeDir="false" afterPath="$PROJECT_DIR$/WebMessenger/wwwroot/js/mocks.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebMessenger/wwwroot/js/pageNotifications-spec.js" beforeDir="false" afterPath="$PROJECT_DIR$/WebMessenger/wwwroot/js/pageNotifications-spec.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebMessenger/wwwroot/js/pageNotifications.js" beforeDir="false" afterPath="$PROJECT_DIR$/WebMessenger/wwwroot/js/pageNotifications.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebMessenger/wwwroot/js/setup.js" beforeDir="false" afterPath="$PROJECT_DIR$/WebMessenger/wwwroot/js/setup.js" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,13 +30,98 @@
       <file leaf-file-name="setup.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/WebMessenger/wwwroot/js/setup.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="8" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
+            <state relative-caret-position="163">
+              <caret line="14" column="52" selection-start-line="13" selection-start-column="3" selection-end-line="14" selection-end-column="52" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MessengerHub.cs" pinned="false" current-in-tab="true">
+      <file leaf-file-name="addMessages-spec.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/WebMessenger/wwwroot/js/addMessages-spec.js">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="addRemoveMessages-spec.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/WebMessenger/wwwroot/js/addRemoveMessages-spec.js">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="addRemoveMessages.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/WebMessenger/wwwroot/js/addRemoveMessages.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="390">
+              <caret line="26" selection-start-line="26" selection-end-line="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Index.cshtml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/WebMessenger/Views/Messenger/Index.cshtml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="375">
+              <caret line="25" column="23" selection-start-line="25" selection-start-column="23" selection-end-line="25" selection-end-column="23" />
+              <folding>
+                <marker date="1525718598000" expanded="true" signature="27:1021" ph="&lt;div.../&gt;" />
+                <marker date="1525718598000" expanded="true" signature="52:436" ph="&lt;div.../&gt;" />
+                <marker date="1525718598000" expanded="true" signature="79:359" ph="&lt;form.../&gt;" />
+                <marker date="1525718598000" expanded="true" signature="227:331" ph="&lt;div.../&gt;" />
+                <marker date="1525718598000" expanded="true" signature="451:938" ph="&lt;div.../&gt;" />
+                <marker date="1525718598000" expanded="true" signature="480:903" ph="@..." />
+                <marker date="1525718598000" expanded="true" signature="507:903" ph="{...}" />
+                <marker date="1525718598000" expanded="true" signature="943:1013" ph="&lt;div.../&gt;" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="mocks.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/WebMessenger/wwwroot/js/mocks.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="14" column="29" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pageNotifications-spec.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/WebMessenger/wwwroot/js/pageNotifications-spec.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="542">
+              <caret line="149" selection-start-line="149" selection-end-line="149" />
+              <folding>
+                <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MessageModel.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/WebMessenger/Models/MessageModel.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="7" column="130" selection-start-line="7" selection-start-column="130" selection-end-line="7" selection-end-column="130" />
+              <folding>
+                <marker date="1525717773000" expanded="true" signature="45:301" ph="{...}" />
+                <marker date="1525717773000" expanded="true" signature="77:299" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="IMessages.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/WebMessenger/Interfaces/IMessages.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <marker date="1525713027000" expanded="false" signature="6:60" ph="..." />
+                <marker date="1525713027000" expanded="true" signature="96:269" ph="{...}" />
+                <marker date="1525713027000" expanded="true" signature="129:267" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MessengerHub.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/WebMessenger/Hubs/MessengerHub.cs">
           <provider selected="true" editor-type-id="text-editor">
             <state>
@@ -40,73 +138,18 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MessageModel.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/WebMessenger/Models/MessageModel.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <folding>
-                <marker date="1525713027000" expanded="true" signature="30:154" ph="{...}" />
-                <marker date="1525713027000" expanded="true" signature="62:152" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_ViewImports.cshtml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/WebMessenger/Views/_ViewImports.cshtml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <folding>
-                <marker date="1525713027000" expanded="false" signature="7:46" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_Layout.cshtml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/WebMessenger/Views/Shared/_Layout.cshtml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="31" selection-start-line="5" selection-start-column="31" selection-end-line="5" selection-end-column="31" />
-              <folding>
-                <marker date="1525712986000" expanded="true" signature="16:1318" ph="&lt;html.../&gt;" />
-                <marker date="1525712986000" expanded="true" signature="23:375" ph="&lt;head.../&gt;" />
-                <marker date="1525712986000" expanded="true" signature="193:362" ph="&lt;environment.../&gt;" />
-                <marker date="1525712986000" expanded="true" signature="376:1310" ph="&lt;body.../&gt;" />
-                <marker date="1525712986000" expanded="true" signature="387:425" ph="&lt;div.../&gt;" />
-                <marker date="1525712986000" expanded="true" signature="426:1266" ph="&lt;environment.../&gt;" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Index.cshtml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/WebMessenger/Views/Messenger/Index.cshtml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" column="80" selection-start-line="19" selection-start-column="14" selection-end-line="19" selection-end-column="80" />
-              <folding>
-                <marker date="1525713002000" expanded="true" signature="27:671" ph="&lt;div.../&gt;" />
-                <marker date="1525713002000" expanded="true" signature="52:370" ph="&lt;div.../&gt;" />
-                <marker date="1525713002000" expanded="true" signature="79:359" ph="&lt;form.../&gt;" />
-                <marker date="1525713002000" expanded="true" signature="227:331" ph="&lt;div.../&gt;" />
-                <marker date="1525713002000" expanded="true" signature="385:607" ph="&lt;div.../&gt;" />
-                <marker date="1525713002000" expanded="true" signature="413:594" ph="@..." />
-                <marker date="1525713002000" expanded="true" signature="440:594" ph="{...}" />
-                <marker date="1525713002000" expanded="true" signature="454:584" ph="&lt;div.../&gt;" />
-                <marker date="1525713002000" expanded="true" signature="617:664" ph="&lt;div.../&gt;" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
       <find>chat</find>
       <find>console</find>
+      <find>pageNotificationFake</find>
+      <find>addMessage</find>
     </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/WebMessenger/Views/_ViewStart.cshtml" root0="FORCE_HIGHLIGHTING" />
@@ -124,10 +167,14 @@
       <list>
         <option value="$PROJECT_DIR$/WebMessenger/Startup.cs" />
         <option value="$PROJECT_DIR$/WebMessenger/wwwroot/js/site.js" />
-        <option value="$PROJECT_DIR$/WebMessenger/Views/Shared/_Layout.cshtml" />
-        <option value="$PROJECT_DIR$/WebMessenger/Views/Messenger/Index.cshtml" />
-        <option value="$PROJECT_DIR$/WebMessenger/wwwroot/js/setup.js" />
         <option value="$PROJECT_DIR$/WebMessenger/Hubs/MessengerHub.cs" />
+        <option value="$PROJECT_DIR$/WebMessenger/wwwroot/js/mocks.js" />
+        <option value="$PROJECT_DIR$/WebMessenger/wwwroot/js/pageNotifications.js" />
+        <option value="$PROJECT_DIR$/WebMessenger/Views/Shared/_Layout.cshtml" />
+        <option value="$PROJECT_DIR$/WebMessenger/Models/MessageModel.cs" />
+        <option value="$PROJECT_DIR$/WebMessenger/wwwroot/js/addRemoveMessages.js" />
+        <option value="$PROJECT_DIR$/WebMessenger/wwwroot/js/setup.js" />
+        <option value="$PROJECT_DIR$/WebMessenger/Views/Messenger/Index.cshtml" />
       </list>
     </option>
   </component>
@@ -141,11 +188,12 @@
     <handled-path value="$PROJECT_DIR$/WebMessenger/wwwroot/js/node_modules" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="271" />
-    <option name="y" value="23" />
+    <option name="x" value="-30" />
+    <option name="y" value="236" />
     <option name="width" value="2742" />
     <option name="height" value="1328" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator currentView="SolutionExplorer" proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -174,6 +222,12 @@
               <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
               <item name="WebMessenger (1 project)" type="977d5f41:SolutionExplorerNodeRider" />
               <item name="WebMessenger" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Interfaces" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="WebMessenger (1 project)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="WebMessenger" type="977d5f41:SolutionExplorerNodeRider" />
               <item name="Models" type="977d5f41:SolutionExplorerNodeRider" />
             </path>
             <path>
@@ -196,6 +250,27 @@
               <item name="Views" type="977d5f41:SolutionExplorerNodeRider" />
               <item name="Shared" type="977d5f41:SolutionExplorerNodeRider" />
             </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="WebMessenger (1 project)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="WebMessenger" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="wwwroot" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="WebMessenger (1 project)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="WebMessenger" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="wwwroot" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="js" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="WebMessenger (1 project)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="WebMessenger" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="wwwroot" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="js" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="site.js" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -206,7 +281,9 @@
   </component>
   <component name="PropertiesComponent">
     <property name="Rider.ProjectViewActivator.IsNotFirstRun" value="true" />
+    <property name="SearchEverywhereHistoryKey" value="mock&#9;FILE&#9;file:///Users/robinlacey/Documents/Work/WebMessenger/WebMessenger/wwwroot/js/mocks.js" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="restartRequiresConfirmation" value="false" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -251,12 +328,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1525712613546</updated>
-      <workItem from="1525712615060" duration="1275000" />
+      <workItem from="1525712615060" duration="5592000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1275000" />
+    <option name="totallyTimeSpent" value="5592000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -268,7 +345,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="242" y="150" width="2742" height="1328" extended-state="0" />
+    <frame x="-30" y="236" width="2742" height="1328" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" />
@@ -277,19 +354,39 @@
       <window_info anchor="bottom" id="Unit Tests" />
       <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
       <window_info anchor="bottom" id="REST Client" />
-      <window_info anchor="bottom" id="Run" visible="true" weight="0.3298722" />
-      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" weight="0.3298722" />
+      <window_info active="true" anchor="bottom" id="Run" visible="true" weight="0.3290735" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Terminal" weight="0.3290735" />
       <window_info anchor="bottom" id="NuGet" weight="0.3298722" />
-      <window_info active="true" content_ui="combo" id="Project" sideWeight="0.49940404" visible="true" />
+      <window_info content_ui="combo" id="Project" sideWeight="0.49880952" visible="true" />
       <window_info anchor="bottom" id="Docker" />
       <window_info anchor="bottom" id="Build" />
       <window_info anchor="right" id="Database" />
       <window_info anchor="bottom" id="Find" />
       <window_info id="Structure" side_tool="true" />
       <window_info anchor="bottom" id="Debug" />
-      <window_info id="Favorites" sideWeight="0.5005959" side_tool="true" visible="true" />
+      <window_info id="Favorites" sideWeight="0.5011905" side_tool="true" />
     </layout>
+    <layout-to-restore>
+      <window_info anchor="bottom" id="NuGet" order="0" weight="0.3298722" />
+      <window_info anchor="bottom" id="Docker" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3290735" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49880952" visible="true" />
+      <window_info id="Structure" order="1" side_tool="true" />
+      <window_info anchor="bottom" id="TODO" order="3" />
+      <window_info anchor="bottom" id="Database Changes" order="4" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Unit Tests" order="5" />
+      <window_info anchor="bottom" id="REST Client" order="6" />
+      <window_info anchor="bottom" id="Find" order="7" />
+      <window_info anchor="right" id="Errors In Solution" order="0" />
+      <window_info anchor="right" id="Database" order="1" />
+      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.3290735" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="10" />
+      <window_info anchor="bottom" id="Debug" order="11" />
+      <window_info anchor="bottom" id="Build" order="12" />
+      <window_info id="Favorites" order="2" sideWeight="0.5011905" side_tool="true" visible="true" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -329,12 +426,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/WebMessenger/wwwroot/js/site.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="84" selection-start-line="1" selection-start-column="84" selection-end-line="1" selection-end-column="84" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/WebMessenger/bundleconfig.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebMessenger/appsettings.json">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/WebMessenger/Views/_ViewStart.cshtml">
       <provider selected="true" editor-type-id="text-editor">
@@ -345,78 +441,64 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/WebMessenger/Interfaces/IMessages.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <marker date="1525713027000" expanded="true" signature="6:60" ph="..." />
-            <marker date="1525713027000" expanded="true" signature="96:269" ph="{...}" />
-            <marker date="1525713027000" expanded="true" signature="129:267" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WebMessenger/bundleconfig.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WebMessenger/appsettings.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WebMessenger/wwwroot/js/setup.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="8" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WebMessenger/Models/MessageModel.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <marker date="1525713027000" expanded="true" signature="30:154" ph="{...}" />
-            <marker date="1525713027000" expanded="true" signature="62:152" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/WebMessenger/Views/_ViewImports.cshtml">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
+        <state relative-caret-position="45">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
           <folding>
-            <marker date="1525713027000" expanded="false" signature="7:46" ph="..." />
+            <marker date="1525713027000" expanded="true" signature="7:46" ph="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebMessenger/wwwroot/js/removeMessages-spec.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-438" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebMessenger/wwwroot/js/inputValidation.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="9" selection-start-line="1" selection-start-column="9" selection-end-line="1" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebMessenger/wwwroot/js/pageNotifications.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="515">
+          <caret line="50" column="43" selection-start-line="50" selection-start-column="43" selection-end-line="50" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebMessenger/wwwroot/js/site.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="84" selection-start-line="1" selection-start-column="84" selection-end-line="1" selection-end-column="84" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/WebMessenger/Views/Shared/_Layout.cshtml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="31" selection-start-line="5" selection-start-column="31" selection-end-line="5" selection-end-column="31" />
+        <state relative-caret-position="270">
+          <caret line="18" column="4" selection-start-line="17" selection-end-line="18" selection-end-column="4" />
           <folding>
-            <marker date="1525712986000" expanded="true" signature="16:1318" ph="&lt;html.../&gt;" />
-            <marker date="1525712986000" expanded="true" signature="23:375" ph="&lt;head.../&gt;" />
-            <marker date="1525712986000" expanded="true" signature="193:362" ph="&lt;environment.../&gt;" />
-            <marker date="1525712986000" expanded="true" signature="376:1310" ph="&lt;body.../&gt;" />
-            <marker date="1525712986000" expanded="true" signature="387:425" ph="&lt;div.../&gt;" />
-            <marker date="1525712986000" expanded="true" signature="426:1266" ph="&lt;environment.../&gt;" />
+            <marker date="1525717255000" expanded="true" signature="16:1308" ph="&lt;html.../&gt;" />
+            <marker date="1525717255000" expanded="true" signature="23:375" ph="&lt;head.../&gt;" />
+            <marker date="1525717255000" expanded="true" signature="193:362" ph="&lt;environment.../&gt;" />
+            <marker date="1525717255000" expanded="true" signature="376:1300" ph="&lt;body.../&gt;" />
+            <marker date="1525717255000" expanded="true" signature="387:425" ph="&lt;div.../&gt;" />
+            <marker date="1525717255000" expanded="true" signature="426:1256" ph="&lt;environment.../&gt;" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/WebMessenger/Views/Messenger/Index.cshtml">
+    <entry file="file://$PROJECT_DIR$/WebMessenger/Interfaces/IMessages.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="80" selection-start-line="19" selection-start-column="14" selection-end-line="19" selection-end-column="80" />
+        <state>
           <folding>
-            <marker date="1525713002000" expanded="true" signature="27:671" ph="&lt;div.../&gt;" />
-            <marker date="1525713002000" expanded="true" signature="52:370" ph="&lt;div.../&gt;" />
-            <marker date="1525713002000" expanded="true" signature="79:359" ph="&lt;form.../&gt;" />
-            <marker date="1525713002000" expanded="true" signature="227:331" ph="&lt;div.../&gt;" />
-            <marker date="1525713002000" expanded="true" signature="385:607" ph="&lt;div.../&gt;" />
-            <marker date="1525713002000" expanded="true" signature="413:594" ph="@..." />
-            <marker date="1525713002000" expanded="true" signature="440:594" ph="{...}" />
-            <marker date="1525713002000" expanded="true" signature="454:584" ph="&lt;div.../&gt;" />
-            <marker date="1525713002000" expanded="true" signature="617:664" ph="&lt;div.../&gt;" />
+            <marker date="1525713027000" expanded="false" signature="6:60" ph="..." />
+            <marker date="1525713027000" expanded="true" signature="96:269" ph="{...}" />
+            <marker date="1525713027000" expanded="true" signature="129:267" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -432,6 +514,71 @@
             <marker date="1525713912000" expanded="true" signature="393:621" ph="{...}" />
             <marker date="1525713912000" expanded="true" signature="458:534" ph="{...}" />
             <marker date="1525713912000" expanded="true" signature="677:816" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebMessenger/wwwroot/js/mocks.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="29" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebMessenger/wwwroot/js/pageNotifications-spec.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="542">
+          <caret line="149" selection-start-line="149" selection-end-line="149" />
+          <folding>
+            <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebMessenger/Models/MessageModel.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="130" selection-start-line="7" selection-start-column="130" selection-end-line="7" selection-end-column="130" />
+          <folding>
+            <marker date="1525717773000" expanded="true" signature="45:301" ph="{...}" />
+            <marker date="1525717773000" expanded="true" signature="77:299" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebMessenger/wwwroot/js/addRemoveMessages-spec.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebMessenger/wwwroot/js/addMessages-spec.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebMessenger/wwwroot/js/addRemoveMessages.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebMessenger/wwwroot/js/setup.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="163">
+          <caret line="14" column="52" selection-start-line="13" selection-start-column="3" selection-end-line="14" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebMessenger/Views/Messenger/Index.cshtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" column="23" selection-start-line="25" selection-start-column="23" selection-end-line="25" selection-end-column="23" />
+          <folding>
+            <marker date="1525718598000" expanded="true" signature="27:1021" ph="&lt;div.../&gt;" />
+            <marker date="1525718598000" expanded="true" signature="52:436" ph="&lt;div.../&gt;" />
+            <marker date="1525718598000" expanded="true" signature="79:359" ph="&lt;form.../&gt;" />
+            <marker date="1525718598000" expanded="true" signature="227:331" ph="&lt;div.../&gt;" />
+            <marker date="1525718598000" expanded="true" signature="451:938" ph="&lt;div.../&gt;" />
+            <marker date="1525718598000" expanded="true" signature="480:903" ph="@..." />
+            <marker date="1525718598000" expanded="true" signature="507:903" ph="{...}" />
+            <marker date="1525718598000" expanded="true" signature="943:1013" ph="&lt;div.../&gt;" />
           </folding>
         </state>
       </provider>

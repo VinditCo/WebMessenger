@@ -89,7 +89,7 @@ describe('PageNotification',function () {
         const Mocks = require('./mocks');
         
         const $ = cheerio.load('<html><head></head><body><div id="messages"></div><div style="display: none;" id="pageNotification"></div></body></html>');
-        const pageNotificationElement = Notifications.pageNotification($, "Message", '#pageNotification', Mocks.fadeInPageNotificationFake, Mocks.fadeOutPageNotificationDummy);
+        const pageNotificationElement = Notifications.pageNotification($, "Message", '#pageNotification', Mocks.fadeInPageNotification, Mocks.fadeOutPageNotificationDummy);
         expect(pageNotificationElement.css('display')).to.not.equal('none')
 
     })
@@ -101,7 +101,7 @@ describe('PageNotification',function () {
         const Mocks = require('./mocks');
         
         const $ = cheerio.load('<html><head></head><body><div id="messages"></div><div style="display: none;" id="pageNotification"></div></body></html>');
-        const pageNotificationElement = Notifications.pageNotification($, "Message", '#pageNotification', Mocks.fadeInPageNotificationFake, Mocks.fadeOutPageNotificationFake);
+        const pageNotificationElement = Notifications.pageNotification($, "Message", '#pageNotification', Mocks.fadeInPageNotification, Mocks.fadeOutPageNotification);
         expect(pageNotificationElement.css('display')).to.equal('none')
 
     })
@@ -113,7 +113,7 @@ describe('PageNotification',function () {
         const Mocks = require('./mocks');
         
         const $ = cheerio.load('<html><head></head><body><div id="messages"></div><div style="display: none;" id="pageNotification"></div></body></html>');
-        const pageNotificationElement = Notifications.pageNotification($, "    ", '#pageNotification', Mocks.fadeInPageNotificationFake, Mocks.fadeOutPageNotificationDummy);
+        const pageNotificationElement = Notifications.pageNotification($, "    ", '#pageNotification', Mocks.fadeInPageNotification, Mocks.fadeOutPageNotificationDummy);
         expect(pageNotificationElement.css('display')).to.equal('none')
 
     })
