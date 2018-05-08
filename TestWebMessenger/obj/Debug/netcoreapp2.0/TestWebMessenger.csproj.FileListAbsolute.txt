@@ -1,0 +1,15 @@
+/Users/robinlacey/Documents/Work/WebMessenger/TestWebMessenger/bin/Debug/netcoreapp2.0/TestWebMessenger.deps.json
+/Users/robinlacey/Documents/Work/WebMessenger/TestWebMessenger/bin/Debug/netcoreapp2.0/TestWebMessenger.runtimeconfig.json
+/Users/robinlacey/Documents/Work/WebMessenger/TestWebMessenger/bin/Debug/netcoreapp2.0/TestWebMessenger.runtimeconfig.dev.json
+/Users/robinlacey/Documents/Work/WebMessenger/TestWebMessenger/bin/Debug/netcoreapp2.0/TestWebMessenger.dll
+/Users/robinlacey/Documents/Work/WebMessenger/TestWebMessenger/bin/Debug/netcoreapp2.0/TestWebMessenger.pdb
+/Users/robinlacey/Documents/Work/WebMessenger/TestWebMessenger/obj/Debug/netcoreapp2.0/TestWebMessenger.csproj.CoreCompileInputs.cache
+/Users/robinlacey/Documents/Work/WebMessenger/TestWebMessenger/obj/Debug/netcoreapp2.0/TestWebMessenger.AssemblyInfoInputs.cache
+/Users/robinlacey/Documents/Work/WebMessenger/TestWebMessenger/obj/Debug/netcoreapp2.0/TestWebMessenger.AssemblyInfo.cs
+/Users/robinlacey/Documents/Work/WebMessenger/TestWebMessenger/obj/Debug/netcoreapp2.0/TestWebMessenger.dll
+/Users/robinlacey/Documents/Work/WebMessenger/TestWebMessenger/obj/Debug/netcoreapp2.0/TestWebMessenger.pdb
+/Users/robinlacey/Documents/Work/WebMessenger/TestWebMessenger/bin/Debug/netcoreapp2.0/WebMessenger.dll
+/Users/robinlacey/Documents/Work/WebMessenger/TestWebMessenger/bin/Debug/netcoreapp2.0/WebMessenger.pdb
+/Users/robinlacey/Documents/Work/WebMessenger/TestWebMessenger/bin/Debug/netcoreapp2.0/xunit.runner.visualstudio.dotnetcore.testadapter.dll
+/Users/robinlacey/Documents/Work/WebMessenger/TestWebMessenger/bin/Debug/netcoreapp2.0/xunit.runner.reporters.netcoreapp10.dll
+/Users/robinlacey/Documents/Work/WebMessenger/TestWebMessenger/bin/Debug/netcoreapp2.0/xunit.runner.utility.netcoreapp10.dll

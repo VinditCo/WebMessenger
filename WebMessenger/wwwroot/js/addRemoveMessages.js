@@ -9,6 +9,7 @@ function addMessage ($, container, messageData, onDelete) {
     return $(container).prepend('<div class="message" id='+messageData.id+'>'+messageData.message+'<time class="timeago" datetime='+ messageData.timeStamp +'></time><button id="deleteButton">Delete</button></div>');
 
 }
+
 function removeMessage ($, container, messageID) {
     if ($ == null){
         return null;

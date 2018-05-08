@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Builder;
+﻿using System;
+using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
@@ -7,32 +8,33 @@ using WebMessenger.Interfaces;
 
 namespace WebMessenger {
     public class Startup {
-        private IMessages localMessages;
         public Startup (IConfiguration configuration) {
 
             Configuration = configuration;
         }
-
         public IConfiguration Configuration { get; }
-
-        // This method gets called by the runtime. Use this method to add services to the container.
+        
         public void ConfigureServices (IServiceCollection services) {
-            
-            // DI
-            services.AddTransient<IMessages, LocalMessagesContext>();
+            AddMessages (services);
             
             services.AddMvc();
             
-            services.AddSignalR();        
+            services.AddSignalR();     
+            
+            services.AddSingleton<IConfiguration>(Configuration);
+        
         }
 
-        // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
+        public virtual void AddMessages (IServiceCollection services) {
+            services.AddTransient<IMessages, LocalMessagesContext>();
+        }
+
         public void Configure (IApplicationBuilder app, IHostingEnvironment env) {
             if (env.IsDevelopment()) {
                 app.UseDeveloperExceptionPage();
             }
             else {
-                app.UseExceptionHandler ("/Home/Error");
+                app.UseExceptionHandler ("/Error");
             }
 
             app.UseStaticFiles();
@@ -42,8 +44,9 @@ namespace WebMessenger {
                 routes.MapHub<MessengerHub>("messengerHub");
             });
 
-            app.UseMvc (routes => { routes.MapRoute (name: "default", template: "{controller=Home}/{action=Index}/{id?}"); });
+            app.UseMvc (routes => { routes.MapRoute (name: "default", template: "{controller=Messenger}/{action=Index}/{id?}"); });
             app.UseMvcWithDefaultRoute();
         }
     }
+
 }

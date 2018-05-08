@@ -1,0 +1,7 @@
+﻿@inject Microsoft.AspNetCore.Hosting.IHostingEnvironment hostingEnv   
+@if (hostingEnv.EnvironmentName == "Development") {
+    <p>Test methods enabled</p>
+}
+else {
+    <p>Tests methods disabled</p>
+}

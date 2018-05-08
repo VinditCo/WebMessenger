@@ -7,9 +7,10 @@ namespace WebMessenger.Controllers {
         public MessengerController (IMessages messages) {
             _testMessages = messages;
         }
+        
         public IActionResult Index() {
             
-            return View(  _testMessages.AllMessages());
+            return View(_testMessages.AllMessages());
         }
 
     }
