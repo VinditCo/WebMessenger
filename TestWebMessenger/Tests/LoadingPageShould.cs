@@ -40,7 +40,7 @@ namespace TestWebMessenger {
             var response = await Client.GetAsync("/");
             response.EnsureSuccessStatusCode();
             var responseString = await response.Content.ReadAsStringAsync();
-            Assert.True (responseString.Contains (" <input type=\"text\" id=\"message\"/>"));
+            Assert.True (responseString.Contains ("<textarea type=\"text\""));
         }
         
     }
