@@ -1,14 +1,13 @@
-﻿using System;
-using System.Linq;
+﻿using System.Linq;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
-using WebMessenger.Interfaces;
+using WebMessenger.Context;
 using WebMessenger.Models;
 
 namespace ASP.Testing {
     public class TestingController : Controller {
         private IConfiguration _config;
-        private IMessages _messages;
+        private readonly MessagesContext _messages;
 
         private bool IsDevelopment {
             get {
@@ -19,34 +18,52 @@ namespace ASP.Testing {
             }
         }
 
-        public TestingController (IConfiguration configuration, IMessages messages) {
+      
+        public TestingController (IConfiguration configuration,MessagesContext messages)
+        {
             _config = configuration;
             _messages = messages;
-            Console.WriteLine (IsDevelopment);
         }
-
         
         public IActionResult Index() {
             return View();
         }
 
-        public ViewResult RemoveOneMessage() {
-            if (IsDevelopment) {
-                if (_messages.AllMessages().Any()) {
-                    return View();
-                }
+        public string RemoveOneMessage() {
+           
+            if ( IsDevelopment&& _messages?.Messages != null && _messages.Messages.Any()) {
+                _messages.Messages.Remove(_messages.Messages.First());
+                _messages.SaveChanges();
+                return "Removed message";
             }
+         
 
-            return null;
+            return "not avaiable in production";
         }
 
-        public ViewResult AddOneMessage() {
-            if (IsDevelopment) {
+        public string AddOneMessage() {
+            if (IsDevelopment && _messages?.Messages != null) {
                 // Load page with javascript to call server
-                return View();
+                _messages.Messages.Add(new MessageModel(){Content = "test content", ID ="test ID"});
+                _messages.SaveChanges();
+                return "Added message";
             }
+           
+            return "not avaiable in production";
 
-            return null;
+        }
+        
+        public string ClearMessages() {
+            if (IsDevelopment && _messages?.Messages != null) {
+                // Load page with javascript to call server
+                foreach (var entity in _messages.Messages)
+                    _messages.Messages.Remove(entity);
+                _messages.SaveChanges();
+                return "Added message";
+            }
+           
+            return "not avaiable in production";
+
         }
     }
 }

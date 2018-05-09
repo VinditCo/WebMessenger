@@ -1,10 +1,10 @@
-﻿using System;
-using Microsoft.AspNetCore.Builder;
+﻿using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+using WebMessenger.Context;
 using WebMessenger.Hubs;
-using WebMessenger.Interfaces;
 
 namespace WebMessenger {
     public class Startup {
@@ -12,6 +12,7 @@ namespace WebMessenger {
 
             Configuration = configuration;
         }
+        
         public IConfiguration Configuration { get; }
         
         public void ConfigureServices (IServiceCollection services) {
@@ -22,11 +23,10 @@ namespace WebMessenger {
             services.AddSignalR();     
             
             services.AddSingleton<IConfiguration>(Configuration);
-        
         }
 
         public virtual void AddMessages (IServiceCollection services) {
-            services.AddTransient<IMessages, LocalMessagesContext>();
+            services.AddDbContext<MessagesContext>(opt => opt.UseInMemoryDatabase("Messages"));
         }
 
         public void Configure (IApplicationBuilder app, IHostingEnvironment env) {
@@ -36,7 +36,7 @@ namespace WebMessenger {
             else {
                 app.UseExceptionHandler ("/Error");
             }
-
+          
             app.UseStaticFiles();
             
             app.UseSignalR(routes =>

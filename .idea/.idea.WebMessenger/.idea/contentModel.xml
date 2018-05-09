@@ -11,11 +11,6 @@
         <e p="Fixtures" t="Include">
           <e p="TestMessengerFixture.cs" t="Include" />
         </e>
-        <e p="mocks" t="Include">
-          <e p="MessagesDummy.cs" t="Include" />
-          <e p="MessagesFake.cs" t="Include" />
-          <e p="MessagesSpy.cs" t="Include" />
-        </e>
         <e p="obj" t="ExcludeRecursive">
           <e p="Debug" t="Include">
             <e p="netcoreapp2.0" t="Include">
@@ -25,11 +20,6 @@
           </e>
         </e>
         <e p="Startups" t="Include">
-          <e p="Messages" t="Include">
-            <e p="StartupWithDummyMessages.cs" t="Include" />
-            <e p="StartupWithFakeMessages.cs" t="Include" />
-            <e p="StartupWithSpyMessages.cs" t="Include" />
-          </e>
           <e p="TestingStartup.cs" t="Include" />
         </e>
         <e p="Tests" t="Include">
@@ -44,6 +34,9 @@
         <e p="appsettings.json" t="Include" />
         <e p="Bin" t="ExcludeRecursive" />
         <e p="bundleconfig.json" t="Include" />
+        <e p="Context" t="Include">
+          <e p="MessagesContext.cs" t="Include" />
+        </e>
         <e p="Controllers" t="Include">
           <e p="ErrorController.cs" t="Include" />
           <e p="MessengerController.cs" t="Include" />
@@ -52,10 +45,6 @@
         <e p="Hubs" t="Include">
           <e p="MessengerHub.cs" t="Include" />
         </e>
-        <e p="Interfaces" t="Include">
-          <e p="IMessages.cs" t="Include" />
-        </e>
-        <e p="LocalMessagesContext.cs" t="Include" />
         <e p="Models" t="Include">
           <e p="MessageModel.cs" t="Include" />
         </e>
@@ -81,9 +70,7 @@
             <e p="_Layout.cshtml" t="Include" />
           </e>
           <e p="Testing" t="Include">
-            <e p="AddOneMessage.cshtml" t="Include" />
             <e p="Index.cshtml" t="Include" />
-            <e p="RemoveOneMessage.cshtml" t="Include" />
           </e>
         </e>
         <e p="WebMessenger.csproj" t="IncludeRecursive" />
@@ -175,6 +162,6 @@
       </e>
       <e p="WebMessenger.sln" t="IncludeFlat" />
     </e>
-    <e p="$USER_HOME$/Library/Caches/Rider2018.1/resharper-host/local/Transient/ReSharperHost/v12/SolutionCaches/_WebMessenger.370352227.00" t="ExcludeRecursive" />
+    <e p="$USER_HOME$/Library/Caches/Rider2018.1/resharper-host/local/Transient/ReSharperHost/v12/SolutionCaches/_WebMessenger.-1053636629.00" t="ExcludeRecursive" />
   </component>
 </project>
