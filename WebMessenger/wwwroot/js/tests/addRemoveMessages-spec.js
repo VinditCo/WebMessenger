@@ -5,14 +5,14 @@ const cheerio = require('cheerio');
 
 describe('AddRemoveMessages',function () {
     it('should exist', function () {
-        const AddRemoveMessages = require('./addRemoveMessages.js');
+        const AddRemoveMessages = require('../addRemoveMessages.js');
         expect(AddRemoveMessages).to.not.be.undefined;
     })
 });
 
 describe('AddRemoveMessages',function () {
     it('should be able to add and them remove message', function () {
-        const AddRemoveMessages = require('./addRemoveMessages.js');
+        const AddRemoveMessages = require('../addRemoveMessages.js');
         const $ = cheerio.load('<html><head></head><body><div id="messages"></div></body></html>');
         const containDiv = '#messages';
         const newMessage = "Hello";
@@ -27,7 +27,7 @@ describe('AddRemoveMessages',function () {
 
 describe('AddRemoveMessages',function () {
     it('should be able to add multiplemessages', function () {
-        const AddRemoveMessages = require('./addRemoveMessages.js');
+        const AddRemoveMessages = require('../addRemoveMessages.js');
         const $ = cheerio.load('<html><head></head><body><div id="messages"></div></body></html>');
         const containDiv = '#messages';
         const newMessage = "Hello";
@@ -49,7 +49,7 @@ describe('AddRemoveMessages',function () {
 
 describe('AddRemoveMessages',function () {
     it('should be able to add multiplemessages and remove multiple messages', function () {
-        const AddRemoveMessages = require('./addRemoveMessages.js');
+        const AddRemoveMessages = require('../addRemoveMessages.js');
         const $ = cheerio.load('<html><head></head><body><div id="messages"></div></body></html>');
         const containDiv = '#messages';
         const newMessage = "Hello";

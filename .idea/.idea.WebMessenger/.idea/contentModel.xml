@@ -77,32 +77,32 @@
         <e p="wwwroot" t="Include">
           <e p="css" t="Include">
             <e p="site.css" t="Include" />
-            <e p="site.min.css" t="Include" />
           </e>
           <e p="favicon.ico" t="Include" />
           <e p="js" t="Include">
             <e p="addEvents.js" t="Include" />
-            <e p="addMessages-spec.js" t="Include" />
-            <e p="addRemoveMessages-spec.js" t="Include" />
             <e p="addRemoveMessages.js" t="Include" />
             <e p="external" t="Include">
               <e p="guid.js" t="Include" />
               <e p="jquery.timeago.js" t="Include" />
             </e>
-            <e p="inputValidation-spec.js" t="Include" />
             <e p="inputValidation.js" t="Include" />
-            <e p="mocks.js" t="Include" />
             <e p="notifications.js" t="Include" />
             <e p="package-lock.json" t="Include" />
-            <e p="pageNotifications-spec.js" t="Include" />
             <e p="pageNotifications.js" t="Include" />
-            <e p="removeMessages-spec.js" t="Include" />
-            <e p="runTests.sh" t="Include" />
             <e p="setup.js" t="Include" />
             <e p="signalr-client.js" t="Include" />
             <e p="signalRConnections.js" t="Include" />
-            <e p="test.js" t="Include" />
             <e p="test_moduleExports.js" t="Include" />
+            <e p="Tests" t="Include">
+              <e p="addMessages-spec.js" t="Include" />
+              <e p="addRemoveMessages-spec.js" t="Include" />
+              <e p="inputValidation-spec.js" t="Include" />
+              <e p="mocks.js" t="Include" />
+              <e p="pageNotifications-spec.js" t="Include" />
+              <e p="removeMessages-spec.js" t="Include" />
+              <e p="runTests.sh" t="Include" />
+            </e>
           </e>
           <e p="lib" t="Include">
             <e p="bootstrap" t="Include">
@@ -162,6 +162,6 @@
       </e>
       <e p="WebMessenger.sln" t="IncludeFlat" />
     </e>
-    <e p="$USER_HOME$/Library/Caches/Rider2018.1/resharper-host/local/Transient/ReSharperHost/v12/SolutionCaches/_WebMessenger.-1053636629.00" t="ExcludeRecursive" />
+    <e p="$USER_HOME$/Library/Caches/Rider2018.1/resharper-host/local/Transient/ReSharperHost/v12/SolutionCaches/_WebMessenger.370352227.00" t="ExcludeRecursive" />
   </component>
 </project>

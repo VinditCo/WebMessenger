@@ -5,21 +5,21 @@ const cheerio = require('cheerio');
 
 describe('InputValidation', function () {
     it('should exist', function () {
-        const InputValidation = require('./inputValidation.js');
+        const InputValidation = require('../inputValidation.js');
         expect(InputValidation).to.not.be.undefined;
     })
 });
 
 describe('InputValidation', function () {
     it('should have Validate function', function () {
-        const InputValidation = require('./inputValidation.js');
+        const InputValidation = require('../inputValidation.js');
         expect(InputValidation.validateInput(null, null, null)).to.not.throw
     })
 });
 
 describe('InputValidation', function () {
     it('should return false if input null', function () {
-        const InputValidation = require('./inputValidation.js');
+        const InputValidation = require('../inputValidation.js');
         expect(InputValidation.validateInput(null, null)).false
 
     })
@@ -27,7 +27,7 @@ describe('InputValidation', function () {
 
 describe('InputValidation', function () {
     it('should return false if element input is empty', function () {
-        const InputValidation = require('./inputValidation.js');
+        const InputValidation = require('../inputValidation.js');
         const $ = get$();
         const $input = $('#message');
         const isValid = InputValidation.validateInput($, $input, null);
@@ -37,7 +37,7 @@ describe('InputValidation', function () {
 
 describe('InputValidation', function () {
     it('should return true if character count is one', function () {
-        const InputValidation = require('./inputValidation.js');
+        const InputValidation = require('../inputValidation.js');
         const $ = get$();
         const $input = $('#message');
         $input.val("a");
@@ -48,7 +48,7 @@ describe('InputValidation', function () {
 
 describe('InputValidation', function () {
     it('should return false if character count is over 150', function () {
-        const InputValidation = require('./inputValidation.js');
+        const InputValidation = require('../inputValidation.js');
         const $ = get$();
         const $input = $('#message');
         $input.val("x".repeat(151));
@@ -60,7 +60,7 @@ describe('InputValidation', function () {
 
 describe('InputValidation', function () {
     it('should hide send button if invalid input', function () {
-        const InputValidation = require('./inputValidation.js');
+        const InputValidation = require('../inputValidation.js');
         const $ = get$();
         const $input = $('#message');
         $input.val("x".repeat(151));
@@ -73,7 +73,7 @@ describe('InputValidation', function () {
 
 describe('InputValidation', function () {
     it('should show send button if valid input', function () {
-        const InputValidation = require('./inputValidation.js');
+        const InputValidation = require('../inputValidation.js');
         const $ = get$();
         const $input = $('#message');
         $input.val("x".repeat(140));
@@ -87,7 +87,7 @@ describe('InputValidation', function () {
 
 describe('Input Validation', function () {
     it('should show enter text notification if input if empty', function () {
-        const InputValidation = require('./inputValidation.js');
+        const InputValidation = require('../inputValidation.js');
         const Mocks = require('./mocks.js');
     
         const $ = get$();
@@ -103,7 +103,7 @@ describe('Input Validation', function () {
 
 describe('Input Validation', function () {
     it('should show no notifications if valid input', function () {
-        const InputValidation = require('./inputValidation.js');
+        const InputValidation = require('../inputValidation.js');
         const Mocks = require('./mocks.js');
         var text = "Notification Text";
         const $ = get$WithNotificationText(text);
@@ -121,7 +121,7 @@ describe('Input Validation', function () {
 
 describe('Input Validation', function () {
     it('should show notifications if input is too long', function () {
-        const InputValidation = require('./inputValidation.js');
+        const InputValidation = require('../inputValidation.js');
         const Mocks = require('./mocks.js');
         var text = "Input must be below 150 characters";
         const $ = get$(text);

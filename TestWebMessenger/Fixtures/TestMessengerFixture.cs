@@ -12,7 +12,9 @@ public class TestMessengerFixture<TStartup> : IDisposable where TStartup : class
 
     public TestMessengerFixture()
     {
-        IWebHostBuilder builder = new WebHostBuilder().UseContentRoot(GetWebMessengerRoot()).UseStartup<TStartup>();
+        IWebHostBuilder builder = new WebHostBuilder()
+            .UseEnvironment("Test")
+            .UseContentRoot(GetWebMessengerRoot()).UseStartup<TStartup>();
         Server = new TestServer(builder);
         Client = Server.CreateClient();
         Client.BaseAddress = new Uri("http://localhost:5000");

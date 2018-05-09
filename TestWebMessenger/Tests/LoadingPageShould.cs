@@ -1,5 +1,7 @@
+using System.Net;
 using System.Net.Http;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.TestHost;
 using WebMessenger;
 using Xunit;
@@ -15,6 +17,13 @@ namespace TestWebMessenger {
         public LoadingPageShould(TestMessengerFixture<TestingStartup> messengerFixture, ITestOutputHelper output) {
             Client = messengerFixture.Client;
             this.output = output;
+        }
+
+        [Fact]
+        public async Task Return200() {
+            var response = await Client.GetAsync("/");
+            response.EnsureSuccessStatusCode();
+            Assert.Equal(HttpStatusCode.OK, response.StatusCode);
         }
 
         [Fact]

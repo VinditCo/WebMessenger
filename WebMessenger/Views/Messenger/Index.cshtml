@@ -1,12 +1,11 @@
 ﻿@model List<MessageModel>
 
-
 <div id="chat">
 
-    <div id = "input">
+    <div class = "topInput-bar" id = "input">
         <form id="frm-send-message" action="#">
             <label for="message">Message:</label>
-            <input type="text" id="message"/>
+            <textarea type="text" id="message"></textarea>
             <div id = "sendButton">
                 <input type="submit" id="send" value="Send"/>
             </div>
@@ -16,12 +15,12 @@
     </div>
     
     
-    <div id="messages">
+    <div class="messagesContainer" id="messages">
         @foreach (var m in @Model) {
             <script src="~/js/addEvents.js"></script>
             <script src="~/js/addRemoveMessages.js"></script>
             <script src="~/lib/jquery/dist/jquery.js" type="text/javascript"></script>
-            <script> addMessageAndAssignDelete($, '#messages', { message: '@m.Content', id: '@m.ID', timeStamp: '@m.TimeStamp'}) </script>                                                                                            
+            <script> addMessageAndAssignDelete($, '#messages', { message: '@(m.Content)', id: '@m.ID', timeStamp: '@m.TimeStamp'}) </script>                                                                                            
         }
     </div>
     <div style="display: none;" id="pageNotification">

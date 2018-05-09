@@ -9,12 +9,12 @@ namespace ASP.Testing {
         private IConfiguration _config;
         private readonly MessagesContext _messages;
 
-        private bool IsDevelopment {
+        private bool IsTesting {
             get {
                 if (_config == null) {
                     return false;
                 }
-                return _config["ENVIRONMENT"] == "Development";
+                return _config["ENVIRONMENT"] == "Test";
             }
         }
 
@@ -31,7 +31,7 @@ namespace ASP.Testing {
 
         public string RemoveOneMessage() {
            
-            if ( IsDevelopment&& _messages?.Messages != null && _messages.Messages.Any()) {
+            if ( IsTesting&& _messages?.Messages != null && _messages.Messages.Any()) {
                 _messages.Messages.Remove(_messages.Messages.First());
                 _messages.SaveChanges();
                 return "Removed message";
@@ -42,7 +42,7 @@ namespace ASP.Testing {
         }
 
         public string AddOneMessage() {
-            if (IsDevelopment && _messages?.Messages != null) {
+            if (IsTesting && _messages?.Messages != null) {
                 // Load page with javascript to call server
                 _messages.Messages.Add(new MessageModel(){Content = "test content", ID ="test ID"});
                 _messages.SaveChanges();
@@ -54,7 +54,7 @@ namespace ASP.Testing {
         }
         
         public string ClearMessages() {
-            if (IsDevelopment && _messages?.Messages != null) {
+            if (IsTesting && _messages?.Messages != null) {
                 // Load page with javascript to call server
                 foreach (var entity in _messages.Messages)
                     _messages.Messages.Remove(entity);

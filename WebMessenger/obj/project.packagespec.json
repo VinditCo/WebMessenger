@@ -1,10 +1,10 @@
 ﻿{
   "version": "1.0.0",
   "restore": {
-    "projectUniqueName": "/Users/robinlacey/Documents/WebMessenger/WebMessenger/WebMessenger.csproj",
+    "projectUniqueName": "/Users/robinlacey/Documents/Work/WebMessenger/WebMessenger/WebMessenger.csproj",
     "projectName": "WebMessenger",
-    "projectPath": "/Users/robinlacey/Documents/WebMessenger/WebMessenger/WebMessenger.csproj",
-    "outputPath": "/Users/robinlacey/Documents/WebMessenger/WebMessenger/obj/",
+    "projectPath": "/Users/robinlacey/Documents/Work/WebMessenger/WebMessenger/WebMessenger.csproj",
+    "outputPath": "/Users/robinlacey/Documents/Work/WebMessenger/WebMessenger/obj/",
     "projectStyle": "PackageReference",
     "fallbackFolders": [
       "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"

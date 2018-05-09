@@ -12980,11 +12980,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/robinlacey/Documents/WebMessenger/WebMessenger/WebMessenger.csproj",
+      "projectUniqueName": "/Users/robinlacey/Documents/Work/WebMessenger/WebMessenger/WebMessenger.csproj",
       "projectName": "WebMessenger",
-      "projectPath": "/Users/robinlacey/Documents/WebMessenger/WebMessenger/WebMessenger.csproj",
+      "projectPath": "/Users/robinlacey/Documents/Work/WebMessenger/WebMessenger/WebMessenger.csproj",
       "packagesPath": "/Users/robinlacey/.nuget/packages/",
-      "outputPath": "/Users/robinlacey/Documents/WebMessenger/WebMessenger/obj/",
+      "outputPath": "/Users/robinlacey/Documents/Work/WebMessenger/WebMessenger/obj/",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
@@ -12996,7 +12996,8 @@
         "netcoreapp2.0"
       ],
       "sources": {
-        "https://api.nuget.org/v3/index.json": {}
+        "https://api.nuget.org/v3/index.json": {},
+        "https://www.myget.org/F/imagesharp/api/v3/index.json": {}
       },
       "frameworks": {
         "netcoreapp2.0": {

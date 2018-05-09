@@ -1,4 +1,5 @@
-﻿using System.Threading.Tasks;
+﻿using System;
+using System.Threading.Tasks;
 using Microsoft.AspNetCore.SignalR;
 using Microsoft.EntityFrameworkCore;
 using WebMessenger.Context;
@@ -13,15 +14,16 @@ namespace WebMessenger.Hubs {
             _messages = messages;
         }
 
-        public async Task Send(string message,string guid)
-        {
+        public async Task Send(string message,string guid) {
+
+            message = message.Replace ("\n", "<br/>");
             _messages.Messages.Add(new MessageModel() {
                 ID = guid,
-                Content = message
+                Content =message
             });
             await _messages.SaveChangesAsync();
 
-            await Clients.All.InvokeAsync("ReceiveMessage", message,guid);
+            await Clients.All.InvokeAsync("ReceiveMessage",  message ,guid);
         }
 
         public async Task RemoveMessage (string guid)
@@ -36,5 +38,9 @@ namespace WebMessenger.Hubs {
             await Clients.All.InvokeAsync("ShouldRemoveMessage",guid);
             
         }
+        
     }
+    
+   
+    
 }

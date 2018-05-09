@@ -6,7 +6,9 @@ function addMessage ($, container, messageData, onDelete) {
     if (messageData == null || this.invalidInputString(messageData.message) || this.invalidInputString(messageData.id) || this.invalidInputString(messageData.timeStamp) ) {
         return $(container);
     }
-    return $(container).prepend('<div class="message" id='+messageData.id+'>'+messageData.message+'<time class="timeago" datetime='+ messageData.timeStamp +'></time><button id="deleteButton">Delete</button></div>');
+    return $(container).prepend('<div class="message" id='+messageData.id+'>'+messageData.message.replace(/&lt;br\s*\/&gt;/g,'<br/>')+
+        '<div id="timeContainer" ><time class="timeago" datetime='+ messageData.timeStamp +'></time></div>' +
+        '<div id="deleteContainer" ><button id="deleteButton">Delete</button></div></div>');
 
 }
 

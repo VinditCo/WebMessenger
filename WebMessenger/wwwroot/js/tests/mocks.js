@@ -13,12 +13,12 @@ function fadeOutPageNotificationFake(element) {
 }
 
 function pageNotificationFake($, message) {
-    const PageNotification = require('./pageNotifications.js');
+    const PageNotification = require('../pageNotifications.js');
     return PageNotification.pageNotification($, message, '#inputNotification', fadeInPageNotificationFake, fadeOutPageNotificationDummy)
 }
 
 function hidePageNotificationFake($) {
-    const PageNotification = require('./pageNotifications.js');
+    const PageNotification = require('../pageNotifications.js');
     return PageNotification.pageNotificationForceHide($, '#inputNotification')
 }
 

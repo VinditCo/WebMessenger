@@ -5,7 +5,7 @@ const cheerio = require('cheerio');
 
 describe('PageNotifications',function () {
     it('should exist', function () {
-        const AddRemoveMessages = require('./pageNotifications.js');
+        const AddRemoveMessages = require('../pageNotifications.js');
         expect(AddRemoveMessages).to.not.be.undefined;
     })
 });
@@ -13,7 +13,7 @@ describe('PageNotifications',function () {
 
 describe('PageNotification',function () {
     it('should have PageNotification function', function () {
-        const Notifications = require('./pageNotifications.js');
+        const Notifications = require('../pageNotifications.js');
         const Mocks = require('./mocks');
         expect(Notifications.pageNotification(null,"Message","#div",Mocks.fadeInPageNotificationDummy,Mocks.fadeOutPageNotificationDummy)).to.not.throw;
     })
@@ -21,23 +21,23 @@ describe('PageNotification',function () {
 
 describe('PageNotification',function () {
     it('should return null if input is null', function () {
-        let PageNotifications = require('./pageNotifications.js');
+        let PageNotifications = require('../pageNotifications.js');
         const Mocks = require('./mocks');
         
         
         expect(PageNotifications.pageNotification(null,"Message","#div",Mocks.adeInPageNotificationDummy,Mocks.fadeOutPageNotificationDummy)).to.be.null;
 
-        PageNotifications = require('./pageNotifications.js');
+        PageNotifications = require('../pageNotifications.js');
         expect(PageNotifications.pageNotification(null,null,"#div",Mocks.fadeInPageNotificationDummy,Mocks.fadeOutPageNotificationDummy)).to.be.null;
 
-        PageNotifications = require('./pageNotifications.js');
+        PageNotifications = require('../pageNotifications.js');
         expect(PageNotifications.pageNotification(null,null,null,Mocks.fadeInPageNotificationDummy,Mocks.fadeOutPageNotificationDummy)).to.be.null
     })
 });
 
 describe('PageNotification',function () {
     it('should return null if target div is whitespace', function () {
-        let PageNotifications = require('./pageNotifications.js');
+        let PageNotifications = require('../pageNotifications.js');
         const Mocks = require('./mocks');
         expect(PageNotifications.pageNotification(null,"Message","    ",Mocks.fadeInPageNotificationDummy,Mocks.fadeOutPageNotificationDummy)).to.be.null
    })
@@ -46,7 +46,7 @@ describe('PageNotification',function () {
 
 describe('PageNotification',function () {
     it('should return pageNotifications element if valid input', function () {
-        const Notifications = require('./pageNotifications.js');
+        const Notifications = require('../pageNotifications.js');
         const Mocks = require('./mocks');
         
         const $ = cheerio.load('<html><head></head><body><div id="messages"></div><div id="pageNotification"></div></body></html>');
@@ -58,7 +58,7 @@ describe('PageNotification',function () {
 
 describe('PageNotification',function () {
     it('should have correct copy inside element', function () {
-        const Notifications = require('./pageNotifications.js');
+        const Notifications = require('../pageNotifications.js');
         const Mocks = require('./mocks');
         
         
@@ -72,7 +72,7 @@ describe('PageNotification',function () {
 
 describe('PageNotification',function () {
     it('should have correct copy inside element if already has text', function () {
-        const Notifications = require('./pageNotifications.js');  
+        const Notifications = require('../pageNotifications.js');  
         const Mocks = require('./mocks');
 
         const $ = cheerio.load('<html><head></head><body><div id="messages"></div><div id="pageNotification">Old Text</div></body></html>');
@@ -85,7 +85,7 @@ describe('PageNotification',function () {
 
 describe('PageNotification',function () {
     it('should be visible', function () {
-        const Notifications = require('./pageNotifications.js');
+        const Notifications = require('../pageNotifications.js');
         const Mocks = require('./mocks');
         
         const $ = cheerio.load('<html><head></head><body><div id="messages"></div><div style="display: none;" id="pageNotification"></div></body></html>');
@@ -97,7 +97,7 @@ describe('PageNotification',function () {
 
 describe('PageNotification',function () {
     it('should fade out', function () {
-        const Notifications = require('./pageNotifications.js');
+        const Notifications = require('../pageNotifications.js');
         const Mocks = require('./mocks');
         
         const $ = cheerio.load('<html><head></head><body><div id="messages"></div><div style="display: none;" id="pageNotification"></div></body></html>');
@@ -109,7 +109,7 @@ describe('PageNotification',function () {
 
 describe('PageNotification',function () {
     it('should not show if message is invalid', function () {
-        const Notifications = require('./pageNotifications.js');
+        const Notifications = require('../pageNotifications.js');
         const Mocks = require('./mocks');
         
         const $ = cheerio.load('<html><head></head><body><div id="messages"></div><div style="display: none;" id="pageNotification"></div></body></html>');
@@ -122,7 +122,7 @@ describe('PageNotification',function () {
 
 describe('PageNotification',function () {
     it('should have PageNotificationForceHde function', function () {
-        const Notifications = require('./pageNotifications.js');
+        const Notifications = require('../pageNotifications.js');
    
         expect(Notifications.pageNotificationForceHide(null,"#div")).to.not.throw;
     })
@@ -131,7 +131,7 @@ describe('PageNotification',function () {
 
 describe('PageNotifications',function () {
     it('should force hide element when called',function () {
-        const Notifications = require('./pageNotifications.js');
+        const Notifications = require('../pageNotifications.js');
         const Mocks = require('./mocks');
 
         const $ = cheerio.load('<html><head></head><body><div id="messages"></div><div style="display: inline;" id="pageNotification"></div></body></html>');
@@ -143,7 +143,7 @@ describe('PageNotifications',function () {
 
 describe('PageNotifications',function () {
     it('should do nthing if invalid elementID',function () {
-        const Notifications = require('./pageNotifications.js');
+        const Notifications = require('../pageNotifications.js');
 
         const $ = cheerio.load('<html><head></head><body><div id="messages"></div><div style="display: inline;" id="pageNotification"></div></body></html>');
         Notifications.pageNotificationForceHide($,"#invalid");

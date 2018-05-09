@@ -5,6 +5,7 @@ function addSendToOnClick() {
         var guid = NewGuid() + "-" + connection.id;
         broadcastSend(message, guid);
         pageNotification($, "Message Sent", "#pageNotification", fadeInPageNotification, fadeOutPageNotification)
+        validateInput($, $('#message'), inputNotification, hideInputNotification)
     });
 }
 
@@ -14,10 +15,9 @@ function broadcastSend(message, guid) {
 }
 
 function addDeleteToOnClick(messageData, guid) {
-    $('#' + messageData.id).on("click", function () {
+    $('#deleteButton').on("click", function () {
         connection.invoke('RemoveMessage', guid);
         event.preventDefault();
-        
         pageNotification($, "Message Deleted", "#pageNotification", fadeInPageNotification, fadeOutPageNotification)
     });
 }
@@ -25,6 +25,7 @@ function addDeleteToOnClick(messageData, guid) {
 function addMessageAndAssignDelete($,containDiv, messageData) {
     addMessage($, containDiv, messageData);
     addDeleteToOnClick(messageData, messageData.id);
+  
 }
 
 function addValidationToInput() {
