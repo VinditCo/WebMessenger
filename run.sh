@@ -1,0 +1,2 @@
+cd WebMessenger
+dotnet run
