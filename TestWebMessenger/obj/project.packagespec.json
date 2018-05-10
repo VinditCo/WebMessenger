@@ -1,10 +1,10 @@
 ﻿{
   "version": "1.0.0",
   "restore": {
-    "projectUniqueName": "/Users/robinlacey/Documents/Work/WebMessenger/TestWebMessenger/TestWebMessenger.csproj",
+    "projectUniqueName": "/Users/robinlacey/Documents/WebMessenger/TestWebMessenger/TestWebMessenger.csproj",
     "projectName": "TestWebMessenger",
-    "projectPath": "/Users/robinlacey/Documents/Work/WebMessenger/TestWebMessenger/TestWebMessenger.csproj",
-    "outputPath": "/Users/robinlacey/Documents/Work/WebMessenger/TestWebMessenger/obj/",
+    "projectPath": "/Users/robinlacey/Documents/WebMessenger/TestWebMessenger/TestWebMessenger.csproj",
+    "outputPath": "/Users/robinlacey/Documents/WebMessenger/TestWebMessenger/obj/",
     "projectStyle": "PackageReference",
     "fallbackFolders": [
       "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
@@ -15,8 +15,8 @@
     "frameworks": {
       "netcoreapp2.0": {
         "projectReferences": {
-          "/Users/robinlacey/Documents/Work/WebMessenger/WebMessenger/WebMessenger.csproj": {
-            "projectPath": "/Users/robinlacey/Documents/Work/WebMessenger/WebMessenger/WebMessenger.csproj"
+          "/Users/robinlacey/Documents/WebMessenger/WebMessenger/WebMessenger.csproj": {
+            "projectPath": "/Users/robinlacey/Documents/WebMessenger/WebMessenger/WebMessenger.csproj"
           }
         }
       }

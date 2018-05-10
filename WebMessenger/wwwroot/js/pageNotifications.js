@@ -5,47 +5,69 @@ function pageNotification($, notificationMessage, notificationID, fadeInNotifica
     }
     const element = $(notificationID);
 
-    if (invalidInput()) {
+    if (CheckPageNotificationInput().invalidInput(fadeOutNotification,fadeInNotification,element,notificationMessage,notificationID)) {
         return null;
     }
 
-    if (noNotificationMessage()) {
+    if (CheckPageNotificationInput().noNotificationMessage(notificationMessage)) {
         return element;
     }
 
     element.empty();
     element.append(notificationMessage);
 
-    fadeIn();
+    PageNotificationTransitions().fadeIn(element,fadeInNotification);
 
-    fadeOut();
+    PageNotificationTransitions().fadeOut(element,fadeOutNotification);
 
     return element;
+}
 
-    function fadeIn() {
+var CheckPageNotificationInput = function () {
+
+    var noNotificationMessage = function(notificationMessage) {
+        return notificationMessage.trim().length === 0;
+    };
+
+    var invalidInput = function (fadeOutNotification,fadeInNotification,element,notificationMessage,notificationID) {
+        return fadeOutNotification == null || typeof fadeOutNotification !== "function" || fadeInNotification == null || typeof fadeInNotification !== "function" || element == null || notificationMessage == null || notificationID.trim().length === 0;
+    };
+    return {
+        noNotificationMessage: function(notificationMessage) {
+            return noNotificationMessage(notificationMessage);
+        },
+        invalidInput: function(fadeOutNotification,fadeInNotification,element,notificationMessage,notificationID) {
+            return invalidInput(fadeOutNotification,fadeInNotification,element,notificationMessage,notificationID);
+        },
+    };
+};
+
+
+var PageNotificationTransitions = function () {
+
+    var fadeIn = function (element,fadeInNotification) {
         fadeInNotification(element);
-    }
+    };
 
-
-    function fadeOut() {
+    var fadeOut = function(element,fadeOutNotification) {
         if (element.promise != null) {
             element.promise().done(function () {
                 fadeOutNotification(element);
             });
         }
         else {
-            fadeOutNotification(element);
+            fadeOutNotification(element,fadeOutNotification);
         }
-    }
-
-    function noNotificationMessage() {
-        return notificationMessage.trim().length === 0;
-    }
-
-    function invalidInput() {
-        return fadeOutNotification == null || typeof fadeOutNotification !== "function" || fadeInNotification == null || typeof fadeInNotification !== "function" || element == null || notificationMessage == null || notificationID.trim().length === 0;
-    }
-}
+    };
+    return {
+        fadeIn: function(element,fadeInNotification) {
+            return fadeIn(element,fadeInNotification);
+        },
+        fadeOut: function(fadeOutNotification,fadeInNotification,element,notificationMessage,notificationID) {
+            return fadeOut(fadeOutNotification,fadeInNotification,element,notificationMessage,notificationID);
+        },
+    };
+};
 
 function pageNotificationForceHide($, notificationID) {
     if ($ == null || notificationID == null|| notificationID.trim().length === 0) {

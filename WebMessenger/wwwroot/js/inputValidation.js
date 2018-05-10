@@ -1,63 +1,88 @@
 
-function validateInput($,element, pageNotification,hidePageNotification) {
+function validateInput($,element, pageNotification,hidePageNotification, test) {
+    if (CheckValidateInput().isValidElement(element,test)){
+        ShowHideSendButton().showSendButton(element);
+        if (CheckValidateInput().canHideNotifications(hidePageNotification)){
+            hidePageNotification($,element);
+        }
 
-    function isValid() {
-        return element != null && !emptyElement() && element.val().toString().length <= 150;
+        return true;
     }
 
-    function emptyElement() {
-        return element.val() == null || element.val().toString().length === 0;
+    if (CheckValidateInput().shouldShowEmptyTextNotification(element,pageNotification)){
+        pageNotification($,"Enter Text")
     }
-
-    function canHideNotifications() {
-        return hidePageNotification != null && typeof hidePageNotification === "function";
+    else if(CheckValidateInput().shouldShowTextTooLongNotification(element,pageNotification)){
+        pageNotification($,"Input must be below 150 characters")
     }
-
-    function hasPageNotification() {
-        return pageNotification != null && typeof pageNotification === "function";
+    else if (CheckValidateInput().canHideNotifications(hidePageNotification)){
+        hidePageNotification($,element);
     }
+    ShowHideSendButton().hideSendButton(element);
+    return false;
+}
 
-    function shouldShowEmptyTextNotification() {
-        return element != null && emptyElement() && hasPageNotification();
-    }
-
-    function shouldShowTextTooLongNotification() {
-        return element != null && !emptyElement() && hasPageNotification();
-    }
-
-    function hideSendButton() {
+var ShowHideSendButton = function () {
+    var showSendButton = function(element) {
+        element.next().css('display', 'initial');
+    };
+    
+    var hideSendButton= function(element) {
         if (element!=null){
             element.next().css('display', 'none');
         }
-    }
-    
-    function showSendButton() {
-        element.next().css('display', 'initial');
-    }
-    
-
-    if (isValid()){
-        showSendButton();
-        if (canHideNotifications()){
-            hidePageNotification($,element);
+    };
+    return{
+        hideSendButton: function(element) {
+            hideSendButton(element);
+        },
+        showSendButton: function(element) {
+            showSendButton(element);
         }
-        return true;
-    }
+    };
+};
+
+var CheckValidateInput = function () {
+    const emptyElement = function(element) {
+        return element.val() == null || element.val().toString().length === 0;
+    };
+    var isValidElement = function (element, test) {
+        return (element != null && !emptyElement(element) && element.val().toString().length <= 150);
+    };
+
+
+    var canHideNotifications= function(hidePageNotification) {
+        return hidePageNotification != null && typeof hidePageNotification === "function";
+    };
+
+    var hasPageNotification = function(pageNotification) {
+        return pageNotification != null && typeof pageNotification === "function";
+    };
+
+    var shouldShowEmptyTextNotification= function(element,pageNotification) {
+        return element != null && emptyElement(element) && hasPageNotification(pageNotification);
+    };
+
+    var shouldShowTextTooLongNotification= function(element,pageNotification) {
+        return element != null && !emptyElement(element) && hasPageNotification(pageNotification);
+    };
     
-    if (shouldShowEmptyTextNotification()){
-        pageNotification($,"Enter Text")
-    }
-    else if(shouldShowTextTooLongNotification()){
-        pageNotification($,"Input must be below 150 characters")
-    }
-    else if (canHideNotifications()){
-        hidePageNotification($,element);
-    }
-    
-    hideSendButton();
-    
-    return false;
-}
+    return {
+        isValidElement: function(element,test) {
+            return isValidElement(element,test);
+        },
+        canHideNotifications: function(hidePageNotification) {
+            return canHideNotifications(hidePageNotification);
+        },
+        shouldShowEmptyTextNotification: function(element,pageNotification) {
+            return shouldShowEmptyTextNotification(element,pageNotification);
+        },
+        shouldShowTextTooLongNotification: function(element,pageNotification) {
+            return shouldShowTextTooLongNotification(element,pageNotification);
+        }
+    };
+
+};
 
 
 if(typeof exports !== 'undefined') {

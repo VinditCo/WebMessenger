@@ -41,7 +41,7 @@ describe('InputValidation', function () {
         const $ = get$();
         const $input = $('#message');
         $input.val("a");
-        const isValid = InputValidation.validateInput($, $input, null);
+        const isValid = InputValidation.validateInput($, $input, null,null,true);
         expect(isValid).true
     })
 });
